@@ -100,6 +100,7 @@ def play
     puts "Congrats! #{board[0]}"
   elsif draw?(board)
     puts "It was a draw!"
+  end
 end
 
 
