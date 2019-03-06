@@ -98,8 +98,8 @@ def play
   end
   if won?(board)
     puts "Congrats! #{board[0]}"
-  else
-
+  elsif draw?(board)
+    puts "It was a draw!"
 end
 
 
